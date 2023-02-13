@@ -1,4 +1,5 @@
 import React from 'react'
+import {Mockups, Communities, Messages, Grow, Users, Conversation} from "./images"
 
 export default function Community() {
   return (
@@ -14,17 +15,17 @@ export default function Community() {
       </section>
 
       <section className='community-stats'>
-          <img src='./src/screen-mockups.svg' alt='community-icon-message' className='stats-mockups'/>
+          <img src={Mockups} alt='community-icon-message' className='stats-mockups'/>
           <div className='stats'>
 
             <div className='comm-formed'>
-                <img src='./src/icon-communities.svg' alt='community-icon'/>
+                <img src={Communities} alt='community-icon'/>
                 <h1>1.4k+</h1>
                 <p>Communities Formed</p>
             </div>
 
             <div className='messages'>
-                <img src='./src/icon-messages.svg' alt='community-icon'/>
+                <img src={Messages} alt='community-icon'/>
                 <h1>2.7m+</h1>
                 <p>Messages Sent</p>
             </div>
@@ -41,11 +42,11 @@ export default function Community() {
                     a feedback form.
                 </p>
             </div>
-            <img src='./src/illustration-grow-together.svg' alt='grow_together'/>
+            <img src={Grow} alt='grow_together'/>
         </div>
 
         <div className='conversation'>
-            <img src='./src/illustration-flowing-conversation.svg' alt='flowing_conversation'/>
+            <img src={Conversation} alt='flowing_conversation'/>
             <div>
                 <h1 className='conversation-heading'>Flowing Converstions</h1>
                 <p className='conversation-para'> You wouldn't paginate a conversation in real life, so why do it online?
@@ -61,7 +62,7 @@ export default function Community() {
                     This means, once signed in to your app, your users can start chatting immediately.           
                 </p>
             </div>
-            <img src='./src/illustration-your-users.svg' alt='grow_together'/>
+            <img src={Users} alt='grow_together'/>
         </div>
       </section>
 

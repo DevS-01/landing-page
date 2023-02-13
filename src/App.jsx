@@ -1,6 +1,6 @@
 import Community from "./Community"
 import Footer from "./Footer"
-import logo2 from "./images"
+import {logo2} from "./images"
 function App() {
 
   function Navbar(){

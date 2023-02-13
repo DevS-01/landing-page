@@ -4,13 +4,14 @@ import { FiMail } from "react-icons/fi";
 import { AiFillFacebook } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { FaTwitterSquare } from "react-icons/fa";
+import {logo2} from "./images"
 
 export default function Footer() {
   return (
     <div className='footer'>
       <section className='contact'>
 
-          <img src='./src/logo.svg' alt='logo' className='footer-logo' />
+          <img src={logo2} alt='logo' className='footer-logo' />
           <p>Lorem ipsum dolo sit amet, consectetur  adpiscing elit.
             Maunis nulla quam, hendrerit lacinia vestibulum a, ultrices ques sem.
           </p>
