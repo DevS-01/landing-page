@@ -1,11 +1,12 @@
 import Community from "./Community"
 import Footer from "./Footer"
+import logo2 from "./images"
 function App() {
 
   function Navbar(){
     return(
      <nav>
-        <img src="./src/logo2.png" alt='logo' className="huddle-logo" />
+        <img src={logo2} alt='logo' className="huddle-logo" />
         <span>Try it Free</span>
      </nav>
     )
